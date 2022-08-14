@@ -1,0 +1,16 @@
+name: Ishen
+age: 30
+address: "test: new"
+active: true
+key:
+    key: value
+    key2: 33
+array:
+  - item1
+  - item2
+jsonObject: { key: value, key2: 33 }
+jsonArray: [item1, item2]  
+longText: |
+          hi how are you
+          i am good thank you
+          
