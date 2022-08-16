@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: echo a string
         run: echo "hello world"
+      - name: python command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
+        
